@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffaf5;
+}
+
+/* NAV */
+.cafesito {
+  background-color: #6f4e37;
+}
+
+/* BOTONES */
+.btn-brown {
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+}
+
+.btn-brown:hover {
+  background-color: #8b5e3c;
+  color: white;
+}
+
+/* HEADER */
+header {
+  background-image: url('https://i.pinimg.com/1200x/1b/39/4e/1b394ef04ada3b547a60563be70320e6.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* TARJETAS */
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #6f4e37;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  .card img {
+    height: 150px;
+  }
+}

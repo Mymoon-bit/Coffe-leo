@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Leo☕</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark cafesito">
+    <div class="container">
+      <a class="navbar-brand" href="#">Coffee Leo☕</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio☕</a></li>
+          <li class="nav-item"><a class="nav-link" href="#promos">Promos‼️</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería📸</a></li>
+          <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo📖</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto📱</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="inicio" class="text-center text-light d-flex align-items-center justify-content-center">
+    <div>
+      <h1>Brewed to Perfection</h1>
+      <p>El mejor café hecho con amor❤️‍🩹</p>
+      <a href="#catalogo" class="btn btn-light">Ver menú☕</a>
+    </div>
+  </header>
+
+  <!-- BEBIDAS DESTACADAS -->
+  <section id="promos" class="container text-center my-5">
+    <h2 class="mb-4">Bebidas destacadas☕</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://i.pinimg.com/1200x/d2/0c/e6/d20ce6b882f53f35c58738dab963434b.jpg" class="card-img-top" alt="espresso">
+          <div class="card-body">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">café concentrado e intenso</p>
+            <button class="btn btn-brown">Ordenar☕</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://i.pinimg.com/736x/ae/91/3b/ae913be4113678bfd371c33d3b50aa44.jpg" class="card-img-top" alt="iced">
+          <div class="card-body">
+            <h5 class="card-title">Café Frío</h5>
+            <p class="card-text">Un café frío bien hecho es como un abrazo en un vaso</p>
+            <button class="btn btn-brown">Ordenar☕</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://i.pinimg.com/736x/c9/8d/04/c98d046bf1085bc59f77893bf9779244.jpg" class="card-img-top" alt="organic">
+          <div class="card-body">
+            <h5 class="card-title">Capuccino</h5>
+            <p class="card-text">Un capuchino es un abrazo en una taza</p>
+            <button class="btn btn-brown">Ordenar☕</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="bg-light py-5 text-center">
+    <h2>Galería📸</h2>
+    <div id="carouselCafe" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-4 shadow">
+        <div class="carousel-item active">
+          <img src="https://i.pinimg.com/1200x/dc/b2/1c/dcb21c08fd00f616738c3adcf527a784.jpg" class="d-block w-100 rounded" alt="café 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/736x/b8/7d/93/b87d935e12daa7f1b59e83f80efaa173.jpg" class="d-block w-100 rounded" alt="café 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/736x/95/74/4e/95744ee28da80ac9255ad2f056f90768.jpg" class="d-block w-100 rounded" alt="café 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCafe" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCafe" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo" class="container py-5 text-center">
+    <h2>Nuestro Catálogo📖</h2>
+    <div class="row g-3 justify-content-center mt-3">
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/1200x/4a/06/89/4a06890cf6d27ae966aab840f833d074.jpg" class="card-img-top">
+          <p>Café clásico con sabor intenso</p>
+          <p>Crujiente croissant relleno de Nutella y fresas frescas</p>
+          <p>$40 MXN</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/1200x/fc/49/c1/fc49c117e8a068624c7375f86bef6253.jpg" class="card-img-top">
+          <p>croissant de Jamón y Queso</p>
+          <p>Delicioso croissant con jamón, queso y hojas frescas de espinaca.</p>
+          <p>$45 MXN</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/1200x/ca/2d/05/ca2d0551f7560aa4b46f8f0043e9fd0f.jpg" class="card-img-top">
+          <p>Americano</p>
+          <p>Café clásico con sabor intenso</p>
+          <p>$35 MXN</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/1200x/94/38/65/943865d41a8675c959ddf82aef1667ec.jpg" class="card-img-top">
+          <p>Choco Latte</p>
+          <p>Delicioso café con chocolate y crema batida.</p>
+          <p>$42 MXN</p>
+        </div>
+      </div>
+    </div>
+     <div class="row g-3 justify-content-center mt-3">
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/1200x/95/58/96/9558965f90196df6d9590438c851b2c7.jpg" class="card-img-top">
+          <p>Americano Frío</p>
+          <p>Versión fría del clásico americano.</p>
+          <p>$40 MXN</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/736x/ac/fd/9c/acfd9c5c59f1ce078f20bd059f93c984.jpg" class="card-img-top">
+          <p>Mocha frappe</p>
+          <p>Café helado con crema y toque de chocolate.</p>
+          <p>$45 MXN</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/736x/20/4f/8a/204f8ad83b9c91b37cefbbf9e4d7da90.jpg" class="card-img-top">
+          <p> Latte Frio</p>
+          <p>Refrescante cafe con leche fría y espuma.</p>
+          <p>$40 MXN</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card p-2 shadow-sm">
+          <img src="https://i.pinimg.com/736x/c5/0b/94/c50b9474ee9e2f4fe60bcba52d552cda.jpg" class="card-img-top">
+          <p>Choco Latte con Tapioca</p>
+          <p>Café con leche, chocolate y perlas de tapioca.</p>
+          <p>$42 MXN</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACORDEÓN -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Sobre Nosotros</h2>
+    <div class="accordion" id="acordeonInfo">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#historia">
+          Frase
+          </button>
+        </h2>
+        <div id="Frase" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+           ☕ “El aroma que despierta tus mejores momentos.”
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mision">
+            sobre nosotros :D
+          </button>
+        </h2>
+        <div id="mision" class="accordion-collapse collapse">
+          <div class="accordion-body">
+        En Coffee leo, creemos que una buena taza de café puede transformar cualquier momento.☕
+Preparamos nuestras bebidas con granos seleccionados, leche fresca y un toque de amor.☁️
+Disfruta de un ambiente tranquilo, música suave y el aroma que te invita a quedarte un poco más.🌃
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="contacto" class="container text-center my-5">
+    <h2>Contáctanos</h2>
+    <form class="mt-3 mx-auto" style="max-width:400px;">
+      <input type="text" class="form-control mb-2" placeholder="Tu nombre">
+      <input type="email" class="form-control mb-2" placeholder="Tu correo">
+      <textarea class="form-control mb-2" placeholder="Tu mensaje"></textarea>
+      <button type="submit" class="btn btn-brown w-100">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-light py-4">
+    <p>Síguenos en redes</p>
+    <div>
+      <a href="#" class="text-light me-2">Facebook</a>
+      <a href="#" class="text-light me-2">Instagram</a>
+      <a href="#" class="text-light">Twitter</a>
+    </div>
+    <small>© 2025 Coffee Leo</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
